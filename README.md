@@ -1,2 +1,8 @@
-# quantum-stroboscopy
-Numerical computation and Monte Carlo simulation of stroboscopic measurements of time.
+# Quantum stroboscopy
+
+## Installation
+The package can be initialized in Docker with 
+```bash
+sudo docker build -t jupyter-time .
+./runDocker.sh
+```` 

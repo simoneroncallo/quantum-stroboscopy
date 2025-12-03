@@ -1,0 +1,15 @@
+Dockerfile
+rsyncignore
+runDocker.sh
+requirements.txt
+
+.git/
+.backups/
+.ipynb_checkpoints/
+__pycache__/
+
+/output/
+
+.gitignore
+LICENSE
+README.md
