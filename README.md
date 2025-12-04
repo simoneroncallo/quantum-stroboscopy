@@ -40,7 +40,7 @@ strobo = Stroboscopy(numT, numX, intT[0], intT[1], intX[0], intX[1])
 povm = MonteCarlo(idx, wave_packet, strobo, width, rng)
 results = povm.get_samples(strobo, size)
 ```
-with `numT`, `numX` the number of bins in the intervals `intT` and `intX`, and with `idx` the detector bin.<br><br>
+with `numT` and `numX` the number of bins of the time and position intervals `intT` and `intX`, respectively. Here, `idx` labels the detector bin.<br><br>
 <img src="https://github.com/simoneroncallo/quantum-stroboscopy/blob/main/images/example.svg/">
 
 ## Structure
