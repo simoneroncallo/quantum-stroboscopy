@@ -1,6 +1,5 @@
 # Quantum stroboscopy
-A Python package to perform Monte Carlo simulations of <i>quantum stroboscopy</i>, i.e. strong position measurements on multiple copies of the system at different times. It supports both ideal and non-instantaneous setups. The latter is implemented through a sequence of Gaussian functions, each one representing a different time bin of the stroboscopic measurement. The simulation combines
-rejection sampling with inverse transform sampling: it first draw the ideal measurement results and pass them through the positive operator-valued measure (POVM).
+A Python package to perform Monte Carlo simulations for <i>quantum stroboscopy</i>, i.e. position measurements on multiple copies of the system at different times. It supports both ideal (projective) and non-instantaneous (POVM) setups. The latter is implemented through a sequence of Gaussian functions, each one representing a different time bin of the stroboscopic measurement. The simulation combines rejection sampling with inverse transform sampling: it first draw the ideal measurement results and pass them through the positive operator-valued measure (POVM).
 
 [![arXiv](https://img.shields.io/badge/arXiv-2507.17740-b31b1b.svg)](https://doi.org/10.48550/arXiv.2507.17740)
 
@@ -16,7 +15,7 @@ conda install --file requirements.txt
 ```
 or containerized in [Docker](https://docs.docker.com/) with
 ```bash
-sudo docker build -t jupyter-time .
+sudo docker build -t jupyter-qtime .
 ./runDocker.sh
 ```
 

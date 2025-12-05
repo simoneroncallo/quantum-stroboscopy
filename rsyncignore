@@ -8,8 +8,10 @@ requirements.txt
 .ipynb_checkpoints/
 __pycache__/
 
-/output/
+/images/
 
 .gitignore
 LICENSE
 README.md
+CHANGELOG.md
+CITATION.cff

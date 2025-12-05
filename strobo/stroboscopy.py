@@ -4,7 +4,7 @@
 # performed at different times on a Gaussian wavepacket
 import numpy as np
 import scipy as sp
-from typing import Callable
+from typing import Callable, Tuple
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from matplotlib import colormaps
